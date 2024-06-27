@@ -10,6 +10,6 @@ RUN apk add git
 RUN apk add curl
 
 #Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN curl -sS https://getcomposer.org/installer | php82 -- --install-dir=/usr/local/bin --filename=composer
 
 CMD ["/bin/bash"]
